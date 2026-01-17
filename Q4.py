@@ -1,0 +1,8 @@
+#Remove Even Numbers (Bug Fixed)
+# remove even numbers from list
+
+def remove_even(nums):
+    return [n for n in nums if n % 2 != 0]
+
+nums = [1,2,3,4,5,6,7,8,9,10]
+print(remove_even(nums))
